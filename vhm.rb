@@ -1,12 +1,12 @@
 class Vhm < Formula
   desc "A very simple VirtualHost Manager Script for Apache"
   homepage "http://github.com/alxndrhi/vhm"
-  url "https://github.com/alxndrhi/vhm/archive/v0.1.0.tar.gz"
-  sha256 "bfa77d5ad4de266153adbe29a6204667692913b864bddafd0a4dd3a18154480c"
-  version "0.1.0"
+  url "https://github.com/alxndrhi/vhm/archive/v0.1.1.tar.gz"
+  sha256 "2e1749ba2844a9fc4c94e54510dc577f8865b567aa0f58c0b93c292dcc59d379"
+  version "0.1.1"
 
   def install
-    bin.install "vhm" 
+    bin.install "vhm"
     (etc/"vhm").install "vhm.cfg"
     (etc/"vhm").install "httpd-vhosts.conf"
     (etc/"vhm/templates").install "VirtualHost.conf"
