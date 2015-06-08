@@ -1,9 +1,10 @@
 class Vhm < Formula
   desc "A very simple VirtualHost Manager Script for Apache"
   homepage "http://github.com/alxndrhi/vhm"
-  url "https://github.com/alxndrhi/vhm/archive/v0.1.1.tar.gz"
-  sha256 "2e1749ba2844a9fc4c94e54510dc577f8865b567aa0f58c0b93c292dcc59d379"
-  version "0.1.1"
+  head "https://github.com/alxndrhi/vhm.git"
+  url "https://github.com/alxndrhi/vhm/archive/v0.1.2.tar.gz"
+  sha256 "29eaeaaae6e3f511139b9f475c3e42b9aeac6a632aec34ea87cf92b3e4607c0e"
+  version "0.1.2"
 
   def install
     bin.install "vhm"
