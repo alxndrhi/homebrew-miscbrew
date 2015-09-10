@@ -2,9 +2,9 @@ class Vhm < Formula
   desc "A very simple VirtualHost Manager Script for Apache"
   homepage "http://github.com/alxndrhi/vhm"
   head "https://github.com/alxndrhi/vhm.git"
-  url "https://github.com/alxndrhi/vhm/archive/v0.1.2.tar.gz"
-  sha256 "29eaeaaae6e3f511139b9f475c3e42b9aeac6a632aec34ea87cf92b3e4607c0e"
-  version "0.1.2"
+  url "https://github.com/alxndrhi/vhm/archive/v0.2.0.tar.gz"
+  sha256 "a8cdb0fbf690a2b3ee40f1f21db3da6230f0da2734ecdafc7d7d55af031e7445"
+  version "0.2.0"
 
   def install
     bin.install "vhm"
@@ -25,10 +25,6 @@ class Vhm < Formula
     Include /usr/local/etc/vhm/httpd-vhosts.conf
 
     You can find more detailed information on how to setup vhm on http://github.com/alxndrhi/vhm
-
-    If you are migrating from an earlier version please see the nodes on:
-    http://github.com/alxndrhi/vhm
-
     EOS
   end
 end
